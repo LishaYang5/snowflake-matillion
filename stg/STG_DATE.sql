@@ -1,0 +1,10 @@
+CREATE OR REPLACE TABLE "DATALAKE_DEMO"."MATILLION"."STG_DATE" 
+(	
+    "DATETIME" int NOT NULL,
+    "YEAR"	int	NOT NULL,
+    "MONTH"	int	NOT NULL,
+    "DAY"	int	NOT NULL,
+    "FULL_DATE"	datetime	NOT NULL,
+    "QUARTER"	int	NOT NULL,
+    "DAY_OF_WEEK"	int	NOT NULL
+);
